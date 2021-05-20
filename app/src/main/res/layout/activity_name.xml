@@ -7,7 +7,7 @@
     tools:context=".NameActivity">
 
     <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline1"
+        android:id="@+id/guideline2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -28,7 +28,7 @@
         app:layout_constraintBottom_toTopOf="@id/guideline2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/guideline1"
+        app:layout_constraintTop_toTopOf="@+id/guideline2"
         app:srcCompat="@drawable/name" />
 
     <EditText
