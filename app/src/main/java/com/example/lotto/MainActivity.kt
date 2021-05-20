@@ -20,5 +20,9 @@ class MainActivity : AppCompatActivity() {
 
         }
 
+        findViewById<View>(R.id.cardName).setOnClickListener{
+            startActivity(Intent(this, NameActivity::class.java))
+        }
+
     }
 }
