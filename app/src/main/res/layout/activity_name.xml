@@ -13,12 +13,14 @@
         android:orientation="horizontal"
         app:layout_constraintGuide_percent="0.2" />
 
+<!--
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         app:layout_constraintGuide_percent="0.6" />
+-->
 
     <ImageView
         android:id="@+id/imageView5"
@@ -55,7 +57,7 @@
         app:layout_constraintGuide_percent="0.5" />
 
     <Button
-        android:id="@+id/btnGo"
+        android:id="@+id/btnGoResultName"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="124dp"
@@ -77,5 +79,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/guideline3"
-        app:layout_constraintTop_toTopOf="@+id/btnGo" />
+        app:layout_constraintTop_toTopOf="@+id/btnGoResultName" />
 </androidx.constraintlayout.widget.ConstraintLayout>
