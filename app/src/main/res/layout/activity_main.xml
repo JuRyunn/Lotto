@@ -51,7 +51,7 @@
             </LinearLayout>
 
             <ImageView
-                android:id="@+id/imageView"
+                android:id="@+id/imageViewRandom"
                 android:layout_width="140dp"
                 android:layout_height="140dp"
                 app:srcCompat="@drawable/lottery" />
@@ -105,7 +105,7 @@
             </LinearLayout>
 
             <ImageView
-                android:id="@+id/imageView2"
+                android:id="@+id/imageViewConstell"
                 android:layout_width="140dp"
                 android:layout_height="140dp"
                 app:srcCompat="@drawable/constellation" />
@@ -157,7 +157,7 @@
             </LinearLayout>
 
             <ImageView
-                android:id="@+id/imageView3"
+                android:id="@+id/imageViewName"
                 android:layout_width="140dp"
                 android:layout_height="140dp"
                 app:srcCompat="@drawable/name" />

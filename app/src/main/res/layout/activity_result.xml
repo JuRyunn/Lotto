@@ -117,14 +117,13 @@
         app:srcCompat="@drawable/ball_45" />
 
     <ImageView
-        android:id="@+id/imageView15"
+        android:id="@+id/imageViewMoney"
         android:layout_width="0dp"
         android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/guideline4"
         app:layout_constraintEnd_toEndOf="@+id/guideline3"
-        app:srcCompat="@drawable/money"
-        tools:layout_editor_absoluteX="379dp"
-        tools:layout_editor_absoluteY="366dp" />
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:srcCompat="@drawable/money" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
