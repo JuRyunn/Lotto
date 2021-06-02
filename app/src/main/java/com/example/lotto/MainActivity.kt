@@ -82,7 +82,7 @@ class MainActivity : AppCompatActivity() {
 
         val cardConstellation = findViewById<CardView>(R.id.cardConstellation)
         cardConstellation.setOnClickListener{
-            startActivity(Intent(this@MainActivity, ConstellationActivity::class.java))
+            startActivity(Intent(this@MainActivity, ConstallationActivity::class.java))
 
         }
 
